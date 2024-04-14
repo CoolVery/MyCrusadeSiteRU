@@ -1,0 +1,25 @@
+@font-face {
+    font-family: Gothic;
+    src: url(../fonts/ofont.ru_Carmen.ttf);
+}
+html, body {
+    margin: 0px;
+    height: 100%;
+}
+header {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url("../resors_images/first_screen.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+header > p {
+    margin: 0px;
+    font-size: 100px;
+    font-family: Gothic;
+    color: white;
+}

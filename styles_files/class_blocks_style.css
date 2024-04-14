@@ -1,0 +1,26 @@
+.bloc_info {
+    height: 110%;
+}
+.bloc_title {
+    font-size: 60px;
+    font-family: Gothic;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+}
+.bloc_text {
+    font-size: 30px;
+    font-family: ForText;
+    color: black;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.img_screen {   
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}

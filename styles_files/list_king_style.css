@@ -1,0 +1,13 @@
+#block_list_king {
+    margin-top: 50px;
+    font-family: Gothic;
+    font-size: 50px;
+    text-align: center;
+}
+.list_king {
+    margin-top: 80px;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+}
