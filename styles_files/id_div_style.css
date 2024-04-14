@@ -1,8 +1,3 @@
-#hard_road {
-    flex-direction: column;
-    height: 20%;
-}
-#hard_road_text {
-    display: block;
-    height: 100vh;
+#title_road {
+    margin-top: 50px;
 }

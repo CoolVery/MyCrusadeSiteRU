@@ -1,5 +1,8 @@
 .bloc_info {
-    height: 110%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .bloc_title {
     font-size: 60px;
@@ -17,6 +20,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    flex-direction: column;
 }
 .img_screen {   
     height: 100vh;
