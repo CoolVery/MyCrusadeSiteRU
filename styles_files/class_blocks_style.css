@@ -11,6 +11,7 @@
     align-items: center;
     justify-content: center;
     height: 50%;
+    text-align: center;
 }
 .bloc_text {
     font-size: 30px;
@@ -27,4 +28,37 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+}
+.block_books_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.block_book {
+    margin-top: 50px;
+    text-align: center;
+    font-family: Gothic;
+    font-size: 40px;
+
+}
+.block_book > img {
+    width: 300px;
+}
+.block_button {
+    display: flex;
+    justify-content: center;
+
+}
+.block_button > button {
+    font-family: Gothic;
+    font-size: 40px;
+    padding: 20px 50px;
+    margin-bottom: 50px;
+    background-color: transparent;
+
+
+}
+.block_button > button:hover { 
+    color: white;
+    background-color: black;
 }
